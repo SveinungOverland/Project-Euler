@@ -11,7 +11,7 @@ public class App {
             if(num%i == 0){ //Checks if it's a factorial of the number
                 //Check if the factorial is a prime number
                 boolean primeBool = true;
-                for(int u = 2; u < 9; u++){
+                for(int u = 2; u < i; u++){
                     if(i%u == 0){
                         primeBool = false;
                     }
