@@ -22,5 +22,9 @@ public class App {
         } while(primesFound < primes.length);
         
         System.out.println(primes[10000]);
+        System.out.println(primes[0]);
+        System.out.println(primes[1]);
+        System.out.println(primes[2]);
+        System.out.println(primes[3]);
     }
 }
